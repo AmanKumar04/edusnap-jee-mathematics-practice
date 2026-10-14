@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: edusnap-jee-mathematics-practice
+    runtime: python
+    plan: starter
+    buildCommand: python3 -m py_compile server.py
+    startCommand: python3 server.py
+    healthCheckPath: /
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: JEE_DB_PATH
+        value: /var/data/practice.sqlite3
+      - key: JEE_HTTPS
+        value: "1"
+    disk:
+      name: edusnap-student-data
+      mountPath: /var/data
+      sizeGB: 1
