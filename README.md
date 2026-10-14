@@ -18,6 +18,27 @@ To use a different local port, set JEE_PORT, for example:
 JEE_PORT=8080 python3 server.py
 ~~~
 
+The server also honors the standard `HOST` and `PORT` environment variables. Set
+`JEE_DB_PATH` to move the SQLite database to a persistent volume; the default
+remains `data/practice.sqlite3` for local development.
+
+## Deploy to Render
+
+The repository includes a `render.yaml` Blueprint for a Render web service. It
+uses a paid Starter instance and a 1 GB persistent disk mounted at `/var/data`,
+so student accounts and progress survive service restarts and deploys. The
+Blueprint also enables secure session cookies for HTTPS.
+
+1. Sign in to Render with the GitHub account that can access this repository.
+2. Choose **New → Blueprint**, select this repository, and review the resources
+   described by `render.yaml`.
+3. Apply the Blueprint to create and deploy the service. Render will provide the
+   public `onrender.com` URL when deployment finishes.
+
+The Starter service and persistent disk are paid Render resources. Keep the
+disk attached to the service; deleting it deletes the student database. This
+MVP uses SQLite and is configured for one application instance.
+
 ## What is included
 
 - Email and password accounts with salted PBKDF2 password hashes and HTTP-only session cookies
@@ -39,6 +60,7 @@ Account passwords are never stored in plaintext. Each signed-in API request is s
 
 ~~~text
 server.py             Local HTTP API and SQLite persistence
+render.yaml           Render web service and persistent-disk configuration
 data/questions.json   Structured question bank
 static/index.html     App entry point
 static/styles.css     Responsive interface
