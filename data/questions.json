@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "jee-adv-2026-p1-q01",
+    "questionNumber": 1,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 1,
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Applications of Derivatives",
+    "subtopic": "Monotonicity and local extrema",
+    "questionType": "single_choice",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "easy",
+      "thinking": "hard",
+      "time": "medium"
+    },
+    "conceptTags": [
+      "derivatives",
+      "monotonicity",
+      "critical points",
+      "local extrema",
+      "logarithms"
+    ],
+    "skillTags": [
+      "sign analysis",
+      "derivative reasoning",
+      "eliminating statements"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 1, Q.1",
+    "shortTitle": "A function with no local extrema",
+    "questionText": "Consider the function f : (0, ∞) → ℝ given by\n\nf(x) = √x ln(x) − x + 1.\n\nWhich one of the following statements is true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The derivative of f is decreasing in the interval (0, 1)."
+      },
+      {
+        "key": "B",
+        "text": "The function f has a local maximum at some point a ∈ (0, ∞)."
+      },
+      {
+        "key": "C",
+        "text": "The function f has a local minimum at some point b ∈ (0, ∞)."
+      },
+      {
+        "key": "D",
+        "text": "The function f has neither a local maximum nor a local minimum in (0, ∞)."
+      }
+    ],
+    "correctAnswer": "D",
+    "hints": [
+      "Differentiate f and simplify the sign of f′(x) by multiplying by the positive quantity 2√x.",
+      "Study h(x) = ln(x) − 2√x + 2. Its derivative changes sign at x = 1, where h reaches its maximum."
+    ],
+    "solution": [
+      "f′(x) = (ln x + 2)/(2√x) − 1, so its sign is the sign of h(x) = ln x − 2√x + 2.",
+      "h′(x) = 1/x − 1/√x is positive on (0,1) and negative on (1,∞). Thus h has a maximum at x = 1, where h(1) = 0; hence h(x) ≤ 0 with equality only at x = 1.",
+      "Therefore f is decreasing on its domain and has no local maximum or minimum. The correct option is D."
+    ],
+    "estimatedTimeSeconds": 240,
+    "xp": 30,
+    "topics": [
+      "Applications of Derivatives",
+      "Monotonicity",
+      "Local Extrema"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q02",
+    "questionNumber": 2,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 1,
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Circles",
+    "subtopic": "Tangents and circumradius",
+    "questionType": "single_choice",
+    "difficulty": "medium",
+    "difficultyProfile": {
+      "concept": "medium",
+      "calculation": "medium",
+      "thinking": "medium",
+      "time": "medium"
+    },
+    "conceptTags": [
+      "tangent slope",
+      "parabola",
+      "circle",
+      "ellipse",
+      "circumcircle"
+    ],
+    "skillTags": [
+      "implicit differentiation",
+      "coordinate geometry",
+      "geometric interpretation"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 1, Q.2",
+    "shortTitle": "Circumradius from three tangent conditions",
+    "questionText": "Let P be the point on the parabola y = x² where the tangent has slope 4. Let Q be the point in the first quadrant on the circle x² + y² = 2 where the tangent has slope −1. Let R be the point in the first quadrant on the ellipse x² + 4y² = 8 where the tangent has slope −1/2.\n\nThe radius of the circle passing through P, Q and R is",
+    "options": [
+      {
+        "key": "A",
+        "text": "√10"
+      },
+      {
+        "key": "B",
+        "text": "√5"
+      },
+      {
+        "key": "C",
+        "text": "√(5/2)"
+      },
+      {
+        "key": "D",
+        "text": "2√5"
+      }
+    ],
+    "correctAnswer": "C",
+    "hints": [
+      "Use implicit differentiation to find P, Q and R from their tangent slopes.",
+      "Check whether the triangle PQR is right-angled. The circumradius of a right triangle is half its hypotenuse."
+    ],
+    "solution": [
+      "For y = x², 2x = 4 gives P = (2,4). For x² + y² = 2, −x/y = −1 in the first quadrant gives Q = (1,1).",
+      "For x² + 4y² = 8, −x/(4y) = −1/2 gives x = 2y, hence R = (2,1).",
+      "PR is vertical with length 3 and RQ is horizontal with length 1, so the triangle is right-angled at R. Its hypotenuse PQ has length √10. The circumradius is √10/2 = √(5/2), option C."
+    ],
+    "estimatedTimeSeconds": 240,
+    "xp": 20,
+    "topics": [
+      "Circles",
+      "Parabola",
+      "Ellipse",
+      "Tangents"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q03",
+    "questionNumber": 3,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 1,
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Elementary Transformations",
+    "subtopic": "Row equivalence and invertibility",
+    "questionType": "single_choice",
+    "difficulty": "medium",
+    "difficultyProfile": {
+      "concept": "medium",
+      "calculation": "medium",
+      "thinking": "medium",
+      "time": "medium"
+    },
+    "conceptTags": [
+      "elementary row operations",
+      "rank",
+      "determinant",
+      "invertibility"
+    ],
+    "skillTags": [
+      "determinant calculation",
+      "matrix properties",
+      "logical elimination"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 1, Q.3",
+    "shortTitle": "A matrix row-equivalent to identity",
+    "questionText": "Which one of the following matrices can be obtained by performing elementary row transformations on the 3 × 3 identity matrix?",
+    "options": [
+      {
+        "key": "A",
+        "text": "[[1, 1, 1], [1, 1, 1], [1, 1, 1]]"
+      },
+      {
+        "key": "B",
+        "text": "[[1, 1, 1], [2, 3, 4], [1, 2, 1]]"
+      },
+      {
+        "key": "C",
+        "text": "[[1, 1, 1], [2, 3, 4], [2, 5, 8]]"
+      },
+      {
+        "key": "D",
+        "text": "[[1, 1, 1], [−1, 1, 2], [0, 2, 3]]"
+      }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "Elementary row transformations preserve whether a matrix is invertible.",
+      "Check the determinant of each candidate; exactly one is nonzero."
+    ],
+    "solution": [
+      "A matrix obtained from the identity by elementary row operations must be invertible.",
+      "The determinants of A, C and D are 0. The determinant of B is −2, which is nonzero.",
+      "Therefore B is row-equivalent to the identity."
+    ],
+    "estimatedTimeSeconds": 180,
+    "xp": 20,
+    "topics": [
+      "Elementary Transformations",
+      "Determinants",
+      "Invertibility"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q04",
+    "questionNumber": 4,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 1,
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Inverse Trigonometric Functions",
+    "subtopic": "Principal values and identities",
+    "questionType": "single_choice",
+    "difficulty": "medium",
+    "difficultyProfile": {
+      "concept": "medium",
+      "calculation": "easy",
+      "thinking": "medium",
+      "time": "easy"
+    },
+    "conceptTags": [
+      "principal value",
+      "inverse cotangent",
+      "double angle",
+      "inverse tangent"
+    ],
+    "skillTags": [
+      "principal-value reduction",
+      "trigonometric identities",
+      "exact evaluation"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 1, Q.4",
+    "shortTitle": "Principal values in an exact expression",
+    "questionText": "Considering only the principal values of the inverse trigonometric functions, evaluate\n\ncot⁻¹(cot(−11)) + 10 sin(2 cos⁻¹(1/√2)) + 10 sin(2 tan⁻¹(2)).",
+    "options": [
+      {
+        "key": "A",
+        "text": "3π + 7"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "4π + 7"
+      },
+      {
+        "key": "D",
+        "text": "3π − 5"
+      }
+    ],
+    "correctAnswer": "C",
+    "hints": [
+      "Reduce −11 to the principal interval for cot⁻¹ by adding an integer multiple of π.",
+      "Use sin(2θ) = 2 sin θ cos θ for the two remaining terms."
+    ],
+    "solution": [
+      "With the principal range (0,π) for cot⁻¹, cot⁻¹(cot(−11)) = −11 + 4π.",
+      "The second term is 10 sin(π/2) = 10. For θ = tan⁻¹(2), sin(2θ) = 2 tan θ/(1 + tan² θ) = 4/5, so the third term is 8.",
+      "The total is (−11 + 4π) + 10 + 8 = 4π + 7. Option C."
+    ],
+    "estimatedTimeSeconds": 180,
+    "xp": 20,
+    "topics": [
+      "Inverse Trigonometric Functions",
+      "Trigonometric Identities"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q05",
+    "questionNumber": 5,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 2,
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "topic": "Conditional Probability",
+    "subtopic": "Independence of events",
+    "questionType": "multiple_choice",
+    "difficulty": "medium",
+    "difficultyProfile": {
+      "concept": "medium",
+      "calculation": "easy",
+      "thinking": "medium",
+      "time": "medium"
+    },
+    "conceptTags": [
+      "independence",
+      "conditional probability",
+      "two-stage selection"
+    ],
+    "skillTags": [
+      "probability comparison",
+      "event definition",
+      "careful reading"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 2, Q.5",
+    "shortTitle": "Independence when drawing a ball",
+    "questionText": "Box I contains 6 red and 9 green balls. Box II contains 8 red and 12 green balls. All balls are mixed and one ball is chosen at random. E₁ means the ball came from Box I; E₂ means it came from Box II. F₁ means it is red; F₂ means it is green.\n\nWhich of the following statements are true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "E₁ and F₁ are independent."
+      },
+      {
+        "key": "B",
+        "text": "E₂ and F₂ are dependent."
+      },
+      {
+        "key": "C",
+        "text": "P(F₁ | E₁) = P(F₁ | E₂)."
+      },
+      {
+        "key": "D",
+        "text": "P(F₁ | E₁) > P(F₂ | E₂)."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "C"
+    ],
+    "hints": [
+      "Compare each box’s red-to-green ratio, then compare those conditional probabilities with the overall probability.",
+      "Both boxes have the same red fraction: 2/5. The combined red fraction is also 2/5."
+    ],
+    "solution": [
+      "Each box has red probability 2/5, so P(F₁ | E₁) = P(F₁ | E₂) = 2/5. This proves C and also makes E₁ independent of F₁ because P(F₁) = 2/5.",
+      "The green probability in Box II is 3/5, equal to the overall green probability, so E₂ and F₂ are independent; B is false.",
+      "Finally, 2/5 is not greater than 3/5. Thus the true statements are A and C."
+    ],
+    "estimatedTimeSeconds": 210,
+    "xp": 20,
+    "topics": [
+      "Conditional Probability",
+      "Independence"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q06",
+    "questionNumber": 6,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 2,
+    "subject": "Mathematics",
+    "chapter": "Three-Dimensional Geometry",
+    "topic": "Planes",
+    "subtopic": "Plane normals, distance and angle",
+    "questionType": "multiple_choice",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "medium",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "direction vectors",
+      "normal vectors",
+      "distance between planes",
+      "angle between planes"
+    ],
+    "skillTags": [
+      "vector products",
+      "plane equations",
+      "coordinate geometry"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 2, Q.6",
+    "shortTitle": "A plane through a line",
+    "questionText": "Let plane P contain the line\n(x − 1)/2 = (y − 3)/3 = (z + 2)/1\nand be perpendicular to the plane x + 2y + 3z = 4. Let P₁ pass through (4,2,2) and be parallel to P.\n\nWhich of the following statements are true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The equation of P is 7x − 5y + z = −10."
+      },
+      {
+        "key": "B",
+        "text": "The distance between P and P₁ is 30."
+      },
+      {
+        "key": "C",
+        "text": "The distance from P to the origin is 2√3."
+      },
+      {
+        "key": "D",
+        "text": "The acute angle between P and 2x + 2y + z = 3 is cos⁻¹(1/(3√3))."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "D"
+    ],
+    "hints": [
+      "A normal to P must be perpendicular to both the given line’s direction vector and the given plane’s normal.",
+      "Use the cross product (2,3,1) × (1,2,3) to get a normal to P."
+    ],
+    "solution": [
+      "A normal to P is (2,3,1) × (1,2,3) = (7,−5,1). Using the point (1,3,−2) on the line gives 7x − 5y + z = −10, so A is true.",
+      "The distance between P and the parallel plane through (4,2,2) is |7·4 − 5·2 + 2 + 10|/√75 = 30/√75 = 2√3, not 30. B is false.",
+      "The distance of P from the origin is 10/√75 = 2/√3, so C is false.",
+      "The other plane has normal (2,2,1). Their normal dot product has absolute value 5, and the product of their lengths is 15√3. The cosine is 1/(3√3); D is true."
+    ],
+    "estimatedTimeSeconds": 300,
+    "xp": 30,
+    "topics": [
+      "Planes",
+      "Three-Dimensional Geometry",
+      "Vectors"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q07",
+    "questionNumber": 7,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 2,
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Limits, Continuity and Differentiability",
+    "subtopic": "Products and differentiability at a point",
+    "questionType": "multiple_choice",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "easy",
+      "thinking": "hard",
+      "time": "medium"
+    },
+    "conceptTags": [
+      "continuity",
+      "differentiability",
+      "limits",
+      "arbitrary functions"
+    ],
+    "skillTags": [
+      "definition of derivative",
+      "counterexample analysis",
+      "logical implication"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 2, Q.7",
+    "shortTitle": "What differentiability of x f(x) implies",
+    "questionText": "Let ℝ be the set of real numbers. Let f : ℝ → ℝ be arbitrary, and define g(x) = x f(x) for all x ∈ ℝ.\n\nWhich of the following statements are true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "g is always continuous at x = 0."
+      },
+      {
+        "key": "B",
+        "text": "If f is continuous at x = 0, then g is differentiable at x = 0."
+      },
+      {
+        "key": "C",
+        "text": "If g is differentiable at x = 0, then f is continuous at x = 0."
+      },
+      {
+        "key": "D",
+        "text": "If g is differentiable at x = 0, then limₓ→₀ f(x) exists."
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "D"
+    ],
+    "hints": [
+      "At zero, g(0) = 0. Write the difference quotient g(h)/h.",
+      "For h ≠ 0, g(h)/h = f(h). Differentiability of g at zero therefore gives a limit for f(h)."
+    ],
+    "solution": [
+      "If f is continuous at zero, then (g(h) − g(0))/h = h f(h)/h = f(h) tends to f(0). Thus g is differentiable at zero, proving B.",
+      "Conversely, if g is differentiable at zero, its difference quotient tends to a finite limit. For h ≠ 0 this quotient is f(h), so limₕ→₀ f(h) exists. This proves D, but does not force that limit to equal f(0), so C is false.",
+      "A is false: choosing f(x) = 1/x for x ≠ 0 and any finite f(0) makes g(x) = 1 for x ≠ 0 but g(0) = 0. For C, take f(x)=1 for x ≠ 0 and f(0)=0; then g(x)=x is differentiable at zero while f is discontinuous there."
+    ],
+    "estimatedTimeSeconds": 240,
+    "xp": 30,
+    "topics": [
+      "Limits, Continuity and Differentiability",
+      "Limits",
+      "Continuity"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q08",
+    "questionNumber": 8,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 2,
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "topic": "Matrix Algebra",
+    "subtopic": "Powers, sums and determinants",
+    "questionType": "multiple_choice",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "hard",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "matrix powers",
+      "nilpotent matrix",
+      "Jordan form",
+      "determinant",
+      "linear systems"
+    ],
+    "skillTags": [
+      "matrix decomposition",
+      "pattern recognition",
+      "integer matrices"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 2, Q.8",
+    "shortTitle": "Powers of a 2 × 2 matrix",
+    "questionText": "Let M = [[2, −1], [1, 0]]. Let p, q, r, s, a, b, c and d be integers such that\n\nM²⁶ = [[p, q], [r, s]] and Σₖ₌₁²⁶ Mᵏ = [[a, b], [c, d]].\n\nWhich of the following statements are true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "There is an invertible real 2 × 2 matrix N such that MN = N[[1,1],[0,1]]."
+      },
+      {
+        "key": "B",
+        "text": "a = 378."
+      },
+      {
+        "key": "C",
+        "text": "For any integers m and n, there are unique integers x and y satisfying px + qy = m and rx + sy = n."
+      },
+      {
+        "key": "D",
+        "text": "For every positive real t, (a+t)x + by = 1 and cx + (d+t)y = −1 have a unique solution."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "hints": [
+      "Write M = I + N and compute N². Then powers and sums simplify.",
+      "For D, use the values of a, b, c and d and check the determinant as a function of t."
+    ],
+    "solution": [
+      "Write M = I + N with N = [[1,−1],[1,−1]]. Since N² = 0, Mᵏ = I + kN.",
+      "The nilpotent part has rank one, so M is similar over ℝ to the 2 × 2 Jordan block [[1,1],[0,1]]. Thus A is true.",
+      "M²⁶ = [[27,−26],[26,−25]], so det(M²⁶) = 1. Its inverse has integer entries, giving unique integer x,y for each integer pair m,n. C is true.",
+      "Σₖ₌₁²⁶ Mᵏ = 26I + 351N = [[377,−351],[351,−325]], so a = 377 and B is false.",
+      "The determinant in D is (377+t)(−325+t) + 351² = t² + 52t + 676, positive for every t > 0. Thus D is true."
+    ],
+    "estimatedTimeSeconds": 360,
+    "xp": 30,
+    "topics": [
+      "Matrix Algebra",
+      "Matrix Powers",
+      "Determinants",
+      "Linear Systems"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q09",
+    "questionNumber": 9,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 3,
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Relations and Equivalence Relations",
+    "subtopic": "Counting equivalence relations by class sizes",
+    "questionType": "numerical",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "hard",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "equivalence classes",
+      "set partitions",
+      "integer partitions",
+      "counting"
+    ],
+    "skillTags": [
+      "casework",
+      "multinomial coefficients",
+      "constraint translation"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 3, Q.9",
+    "shortTitle": "Equivalence relations with 42 ordered pairs",
+    "questionText": "Let S = {1,2,3,…,10}. Let X be the set of equivalence relations R on S such that R has exactly 42 elements.\n\nFind the number of elements in X.",
+    "correctAnswer": "2520",
+    "hints": [
+      "An equivalence relation with class sizes n₁,…,nₖ contains n₁² + ⋯ + nₖ² ordered pairs.",
+      "Find the class-size partitions of 10 whose squares sum to 42, then count the labeled partitions."
+    ],
+    "solution": [
+      "If the equivalence classes have sizes n₁,…,nₖ, then the relation contains Σ nᵢ² ordered pairs.",
+      "The only size patterns summing to 10 with square-sum 42 are (6,2,1,1) and (5,4,1).",
+      "The number of labeled partitions is 10!/(6!2!1!1!2!) = 1260 for the first pattern and 10!/(5!4!1!) = 1260 for the second.",
+      "Total: 1260 + 1260 = 2520."
+    ],
+    "estimatedTimeSeconds": 420,
+    "xp": 30,
+    "topics": [
+      "Relations and Equivalence Relations",
+      "Set Partitions",
+      "Counting"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q10",
+    "questionNumber": 10,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 3,
+    "subject": "Mathematics",
+    "chapter": "Calculus",
+    "topic": "Continuity and Differentiability",
+    "subtopic": "Floor functions and piecewise smoothness",
+    "questionType": "numerical",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "medium",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "greatest integer function",
+      "continuity",
+      "differentiability",
+      "absolute value"
+    ],
+    "skillTags": [
+      "one-sided limits",
+      "piecewise analysis",
+      "counting exceptional points"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 3, Q.10",
+    "shortTitle": "Continuity and differentiability breakpoints",
+    "questionText": "For x ∈ (−π/2, π/2), define\n\nf(x) = (|x| + |x − 1|) sin x + ⌊x sin x⌋,\n\nwhere ⌊x sin x⌋ is the greatest integer less than or equal to x sin x. Let α be the number of points where f is not continuous, and β the number of points where f is not differentiable, in this interval.\n\nFind α + β.",
+    "correctAnswer": "5",
+    "hints": [
+      "The floor term changes when x sin x crosses an integer. On this interval x sin x is nonnegative.",
+      "Check the two solutions of x sin x = 1, then inspect the absolute-value term at x = 0 and x = 1."
+    ],
+    "solution": [
+      "On the interval, x sin x ranges from values below 1 near zero to values above 1 near either endpoint. The equation x sin x = 1 has two symmetric solutions, so the floor term has two jumps. Thus α = 2.",
+      "The factor |x| + |x−1| is piecewise linear. At x = 0 its slope change is multiplied by sin 0 = 0, and the product remains differentiable. At x = 1, its slope changes while sin 1 ≠ 0, so the product is not differentiable.",
+      "The two jump points and x = 1 are the three nondifferentiable points, so β = 3 and α + β = 5."
+    ],
+    "estimatedTimeSeconds": 360,
+    "xp": 30,
+    "topics": [
+      "Continuity and Differentiability",
+      "Greatest Integer Function",
+      "Absolute Value"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q11",
+    "questionNumber": 11,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 3,
+    "subject": "Mathematics",
+    "chapter": "Combinatorics",
+    "topic": "Distribution and Integer Solutions",
+    "subtopic": "Bounded compositions",
+    "questionType": "numerical",
+    "difficulty": "medium",
+    "difficultyProfile": {
+      "concept": "medium",
+      "calculation": "medium",
+      "thinking": "medium",
+      "time": "medium"
+    },
+    "conceptTags": [
+      "identical objects",
+      "stars and bars",
+      "bounded compositions",
+      "complement counting"
+    ],
+    "skillTags": [
+      "integer solutions",
+      "inclusion-exclusion",
+      "translation to equations"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 3, Q.11",
+    "shortTitle": "Identical pens among four people",
+    "questionText": "The number of ways to distribute 10 identical red pens and 14 identical blue pens among four persons so that each person gets 6 pens is ____.",
+    "correctAnswer": "206",
+    "hints": [
+      "If person i gets rᵢ red pens, they must get 6 − rᵢ blue pens. Thus 0 ≤ rᵢ ≤ 6 and the red counts sum to 10.",
+      "Count unrestricted nonnegative solutions first, then subtract cases where one person has at least 7 red pens."
+    ],
+    "solution": [
+      "Choose nonnegative integers r₁+r₂+r₃+r₄ = 10 with each rᵢ ≤ 6; the blue counts are then forced.",
+      "Without the upper bound, stars and bars gives C(13,3) = 286 solutions.",
+      "For a specified person with rᵢ ≥ 7, subtract 7 from that count. The remaining total is 3, giving C(6,3) = 20 solutions. There are four choices of person and no overlap is possible.",
+      "The answer is 286 − 4·20 = 206."
+    ],
+    "estimatedTimeSeconds": 240,
+    "xp": 20,
+    "topics": [
+      "Distribution and Integer Solutions",
+      "Stars and Bars",
+      "Combinatorics"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q12",
+    "questionNumber": 12,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 3,
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "subtopic": "Cyclotomic values and cosine products",
+    "questionType": "numerical",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "medium",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "cosine roots",
+      "cyclotomic polynomial",
+      "conjugates",
+      "symmetric products"
+    ],
+    "skillTags": [
+      "algebraic identities",
+      "number patterns",
+      "exact evaluation"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 3, Q.12",
+    "shortTitle": "A product over cosine conjugates",
+    "questionText": "Let\n\nα = (1 − 2cos(π/11))(1 − 2cos(3π/11))(1 − 2cos(9π/11))(1 − 2cos(27π/11))(1 − 2cos(81π/11)).\n\nFind 5 − α².",
+    "correctAnswer": "4",
+    "hints": [
+      "Reduce the angle multipliers modulo 22 and use cos(−θ) = cos θ.",
+      "These five values are the conjugates of 2cos(π/11). Use its monic polynomial evaluated at 1."
+    ],
+    "solution": [
+      "Modulo 22 and up to changing sign, the multipliers 1, 3, 9, 27 and 81 give 1, 3, 9, 5 and 7. These are the five conjugates of 2cos(π/11).",
+      "The minimal polynomial is p(t) = t⁵ − t⁴ − 4t³ + 3t² + 3t − 1. Therefore α = ∏(1 − tᵢ) = p(1) = 1.",
+      "Hence 5 − α² = 4."
+    ],
+    "estimatedTimeSeconds": 360,
+    "xp": 30,
+    "topics": [
+      "Trigonometric Identities",
+      "Cosine Products",
+      "Cyclotomic Polynomials"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q13",
+    "questionNumber": 13,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 4,
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Quadratic Equations",
+    "subtopic": "Transformations of roots",
+    "questionType": "matching",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "medium",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "roots of unity",
+      "quadratic equations",
+      "root transformations",
+      "power sums"
+    ],
+    "skillTags": [
+      "algebraic manipulation",
+      "periodicity",
+      "symmetric functions"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 4, Q.13",
+    "shortTitle": "Match transformed roots",
+    "questionText": "Match each entry in List-I to the correct entry in List-II, then choose the matching option.\n\nList-I\n(P) If α, β are the distinct roots of x² + x + 1 = 0, the quadratic with roots 1/(α+1)²⁰²⁶ and 1/(β+1)²⁰²⁶.\n(Q) If α, β are the distinct roots of x² + x + 1 = 0, the quadratic with roots 1/(α+1)²⁰²⁷ and 1/(β+1)²⁰²⁷.\n(R) If γ, δ are the distinct roots of x² − x + 1 = 0, the value of 1/(γ−1)²⁰²⁶ + 1/(δ−1)²⁰²⁶.\n(S) If p, r are the distinct roots of x² + x − 1 = 0, the value of 1/(p+1)³ + 1/(r+1)³.\n\nList-II\n(1) x² + x + 1 = 0   (2) x² − x + 1 = 0   (3) x² + x − 1 = 0   (4) −1   (5) −4",
+    "options": [
+      {
+        "key": "A",
+        "text": "P→1, Q→2, R→5, S→4"
+      },
+      {
+        "key": "B",
+        "text": "P→3, Q→1, R→4, S→5"
+      },
+      {
+        "key": "C",
+        "text": "P→1, Q→2, R→4, S→5"
+      },
+      {
+        "key": "D",
+        "text": "P→2, Q→3, R→5, S→4"
+      }
+    ],
+    "correctAnswer": "C",
+    "hints": [
+      "For α² + α + 1 = 0, use α + 1 = −β and αβ = 1.",
+      "Reduce powers using the roots’ periods, then use sums and products of roots to identify each result."
+    ],
+    "solution": [
+      "For α,β roots of x²+x+1, α+1=−β and β+1=−α. The even exponent gives the original pair of roots, so P maps to (1); the odd exponent negates the pair, giving x²−x+1, so Q maps to (2).",
+      "For γ²−γ+1=0, 1/(γ−1)=−γ. The 2026th powers sum to γ⁴+δ⁴ = −1, so R maps to (4).",
+      "For p²+p−1=0, 1/(p+1)=p. The sum p³+r³ equals (p+r)³−3pr(p+r)=−4, so S maps to (5).",
+      "The matching is P→1, Q→2, R→4, S→5: option C."
+    ],
+    "estimatedTimeSeconds": 420,
+    "xp": 30,
+    "topics": [
+      "Quadratic Equations",
+      "Transformations of Roots",
+      "Roots of Unity"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q14",
+    "questionNumber": 14,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 4,
+    "subject": "Mathematics",
+    "chapter": "Trigonometry",
+    "topic": "Trigonometric Equations",
+    "subtopic": "Counting solutions on closed intervals",
+    "questionType": "matching",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "medium",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "trigonometric equations",
+      "solution count",
+      "multiple-angle identities",
+      "closed intervals"
+    ],
+    "skillTags": [
+      "equation reduction",
+      "interval counting",
+      "endpoint awareness"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 4, Q.14",
+    "shortTitle": "Count solutions to four trig equations",
+    "questionText": "Match each equation in List-I to the number of solutions in its stated interval in List-II.\n\nList-I\n(P) Number of x ∈ [−π,π] satisfying sin⁶x + cos⁴x = 1.\n(Q) Number of x ∈ [−π/2,π/2] satisfying sin²x + cos⁶x = 1.\n(R) Number of x ∈ [−π,π] satisfying cos²(x/2) − sin²x = 1/2.\n(S) Number of x ∈ [−2π,2π] satisfying 6sin²(x/2) − cos(3x) = 3.\n\nList-II: (1) 1   (2) 2   (3) 3   (4) 4   (5) 5",
+    "options": [
+      {
+        "key": "A",
+        "text": "P→2, Q→5, R→3, S→4"
+      },
+      {
+        "key": "B",
+        "text": "P→5, Q→3, R→2, S→4"
+      },
+      {
+        "key": "C",
+        "text": "P→5, Q→4, R→1, S→3"
+      },
+      {
+        "key": "D",
+        "text": "P→4, Q→3, R→2, S→5"
+      }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "For P and Q, substitute u = sin²x and use cos²x = 1 − u.",
+      "For S, rewrite 6sin²(x/2) as 3(1−cos x), then use cos 3x = 4cos³x − 3cos x."
+    ],
+    "solution": [
+      "For P, setting u=sin²x gives u(u+2)(u−1)=0, so sin²x is 0 or 1. There are 3+2=5 points in [−π,π].",
+      "For Q, u+(1−u)³=1 gives u=0 or 1. There are 1+2=3 points in [−π/2,π/2].",
+      "For R, t=cos²(x/2) reduces the equation to 8t²−6t−1=0. Only t=(3+√17)/8 lies in [0,1], producing two symmetric x values.",
+      "For S, simplification gives cos 3x = −3cos x. The triple-angle identity yields 4cos³x=0, so cos x=0; there are four such points in [−2π,2π].",
+      "Thus P→5, Q→3, R→2, S→4: option B."
+    ],
+    "estimatedTimeSeconds": 420,
+    "xp": 30,
+    "topics": [
+      "Trigonometric Equations",
+      "Counting Solutions",
+      "Multiple-Angle Identities"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q15",
+    "questionNumber": 15,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 4,
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "topic": "Vectors",
+    "subtopic": "Orthogonal matrices and vector products",
+    "questionType": "matching",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "medium",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "orthogonal matrix",
+      "orthonormal vectors",
+      "cross product",
+      "determinant"
+    ],
+    "skillTags": [
+      "matrix-to-vector interpretation",
+      "dot products",
+      "geometric reasoning"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 4, Q.15",
+    "shortTitle": "Match quantities from an orthogonal matrix",
+    "questionText": "For real α, β, γ, δ and μ, let\n\nM = [[α, 1/√2, −1/√2], [1/√3, β, 1/√3], [γ, δ, μ]].\n\nSuppose MMᵀ = I. Define u = αî + (1/√3)ĵ + γk̂, v = (1/√2)î + βĵ + δk̂, and w = −(1/√2)î + (1/√3)ĵ + μk̂.\n\nMatch each quantity in List-I to List-II.\n\nList-I\n(P) γ² + δ²\n(Q) If xu + yv + zw = ĵ, find x.\n(R) |u · (v × w)|\n(S) |u × (v × w)|\n\nList-II: (1) 0   (2) 1   (3) 1/√2   (4) 1/√3   (5) 5/6",
+    "options": [
+      {
+        "key": "A",
+        "text": "P→5, Q→4, R→2, S→1"
+      },
+      {
+        "key": "B",
+        "text": "P→4, Q→5, R→1, S→2"
+      },
+      {
+        "key": "C",
+        "text": "P→5, Q→3, R→2, S→1"
+      },
+      {
+        "key": "D",
+        "text": "P→5, Q→4, R→1, S→2"
+      }
+    ],
+    "correctAnswer": "A",
+    "hints": [
+      "MMᵀ = I makes M orthogonal, so its columns u, v and w are an orthonormal basis.",
+      "Use the unit length of the third row to find γ² + δ², and expand ĵ in the orthonormal columns."
+    ],
+    "solution": [
+      "The columns u, v and w are orthonormal. From the first row norm, α=0; orthogonality of the first two rows gives β=1/√3.",
+      "The third row has unit norm, so γ²+δ²+μ²=1. Orthogonality and the fixed entries give μ²=1/6, hence γ²+δ²=5/6: P→(5).",
+      "In the orthonormal basis u,v,w, the coefficient x is u·ĵ = 1/√3: Q→(4).",
+      "The absolute determinant |u·(v×w)| is 1: R→(2). Since v×w is parallel to u, u×(v×w)=0: S→(1).",
+      "The matching is P→5, Q→4, R→2, S→1: option A."
+    ],
+    "estimatedTimeSeconds": 420,
+    "xp": 30,
+    "topics": [
+      "Vectors",
+      "Orthogonal Matrices",
+      "Cross Products"
+    ]
+  },
+  {
+    "id": "jee-adv-2026-p1-q16",
+    "questionNumber": 16,
+    "exam": "JEE Advanced",
+    "year": 2026,
+    "paper": 1,
+    "section": 4,
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Conic Sections",
+    "subtopic": "Circles, tangents and conics",
+    "questionType": "matching",
+    "difficulty": "hard",
+    "difficultyProfile": {
+      "concept": "hard",
+      "calculation": "hard",
+      "thinking": "hard",
+      "time": "hard"
+    },
+    "conceptTags": [
+      "circle tangent",
+      "common tangent",
+      "parabola",
+      "ellipse normal",
+      "hyperbola"
+    ],
+    "skillTags": [
+      "conic equations",
+      "normal line",
+      "tangent geometry",
+      "coordinate verification"
+    ],
+    "source": "JEE Advanced 2026 Paper 1, Section 4, Q.16",
+    "shortTitle": "Match conics to points",
+    "questionText": "Match each object in List-I to the point in List-II that it passes through.\n\nList-I\n(P) The circle centered at (1,2) and tangent to 3x + 4y = 1.\n(Q) The common tangent with positive slope to x² + y² = 2 and y² = 8x.\n(R) Let M be the first-quadrant endpoint of a latus rectum of 3x² + 4y² = 48. The normal to the ellipse at M.\n(S) The hyperbola H centered at the origin with focus (5,0) and directrix 5x + 16 = 0.\n\nList-II\n(1) (1,1)   (2) (7,9)   (3) (3,2)   (4) (2,5)   (5) (8,3√3)",
+    "options": [
+      {
+        "key": "A",
+        "text": "P→3, Q→4, R→1, S→2"
+      },
+      {
+        "key": "B",
+        "text": "P→3, Q→2, R→1, S→5"
+      },
+      {
+        "key": "C",
+        "text": "P→3, Q→2, R→4, S→5"
+      },
+      {
+        "key": "D",
+        "text": "P→4, Q→1, R→2, S→3"
+      }
+    ],
+    "correctAnswer": "B",
+    "hints": [
+      "For P, calculate the radius as the perpendicular distance from the centre to the line.",
+      "For Q, use the slope form of a tangent to y² = 8x. For S, recover the hyperbola’s semi-major axis from its directrix."
+    ],
+    "solution": [
+      "For P, the radius is |3+8−1|/5=2, so the circle centered at (1,2) passes through (3,2): P→(3).",
+      "For Q, a tangent of slope m to y²=8x is y=mx+2/m. Matching its intercept to the circle’s tangent gives m=1 and line y=x+2, which passes through (7,9): Q→(2).",
+      "The ellipse is x²/16+y²/12=1, with focus coordinate c=2. Its first-quadrant latus-rectum endpoint is (2,3); the normal has slope 2 and passes through (1,1): R→(1).",
+      "For S, the directrix gives a²=16 and c=5, so b²=9. The hyperbola x²/16−y²/9=1 passes through (8,3√3): S→(5).",
+      "The matching is P→3, Q→2, R→1, S→5: option B."
+    ],
+    "estimatedTimeSeconds": 480,
+    "xp": 30,
+    "topics": [
+      "Conic Sections",
+      "Circles",
+      "Parabola",
+      "Ellipse",
+      "Hyperbola"
+    ]
+  }
+]
