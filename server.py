@@ -23,10 +23,10 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 DATA_FILE = ROOT / "data" / "questions.json"
-DB_FILE = ROOT / "data" / "practice.sqlite3"
+DB_FILE = Path(os.environ.get("JEE_DB_PATH", ROOT / "data" / "practice.sqlite3")).expanduser()
 STATIC_DIR = ROOT / "static"
-HOST = os.environ.get("JEE_HOST", "127.0.0.1")
-PORT = int(os.environ.get("JEE_PORT", "8000"))
+HOST = os.environ.get("HOST", os.environ.get("JEE_HOST", "127.0.0.1"))
+PORT = int(os.environ.get("PORT", os.environ.get("JEE_PORT", "8000")))
 COOKIE_NAME = "jee_session"
 SESSION_DAYS = 30
 GOAL_BONUS_XP = 20
